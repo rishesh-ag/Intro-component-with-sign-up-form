@@ -123,6 +123,7 @@ main .right form p span {
         justify-content: center;
         align-items: center;
         text-align: left;
+        background: url('./images/bg-intro-desktop.png') hsl(0, 100%, 74%) ;
     }
     
     main {
