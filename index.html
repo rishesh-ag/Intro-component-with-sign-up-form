@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <main>
+  <div class="left">
+    <h1>Learn to code by watching others</h1>
+    <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+    but understanding how developers think is invaluable. </p>
+  </div>  
+  <div class="right">
+    <h1>
+      <b> Try it free 7 days</b> then $20/mo. thereafter
+    </h1>
+    <form>
+      <input type="text" placeholder="First Name" name="firstname" id="firstname" aria-labelledby="firstname">
+      <label class="hide" for="firstname"><i> First Name cannot be empty</i></label>
+      <input type="text" placeholder="Last Name" name="lastname" id="lastname" aria-labelledby="lastname">
+      <label class="hide" for="lastname"><i>Last Name cannot be empty</i></label>
+      <input type="email" placeholder="Email Address" name="email" id="email" aria-labelledby="email">
+      <label class="hide" for="email"><i>Email Address cannot be empty</i></label>
+      <input type="password" placeholder="Password" name="password" id="password" aria-labelledby="password">
+      <label class="hide" for="password"><i>Password cannot be empty</i></label>
+      <button class="submit">Claim your free trial</button>
+      <p> By clicking the button, you are agreeing to our <span>Terms and Services</span> </p>
+    </form>     
+  </div>
+
+  </main>
+  <script src="./app.js"></script>
+ 
+</body>
+</html>
